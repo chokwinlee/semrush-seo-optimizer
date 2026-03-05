@@ -1,0 +1,137 @@
+{
+  "version": "2026-03-05",
+  "domains": {
+    "crawlability_indexing": {
+      "priority": "P0",
+      "playbook": "playbook-crawlability.md"
+    },
+    "https_security": {
+      "priority": "P1",
+      "playbook": "playbook-https-security.md"
+    },
+    "metadata_content": {
+      "priority": "P2",
+      "playbook": "playbook-metadata-content.md"
+    },
+    "structured_data": {
+      "priority": "P2",
+      "playbook": "playbook-structured-data.md"
+    },
+    "performance": {
+      "priority": "P1",
+      "playbook": "playbook-performance.md"
+    },
+    "international_seo": {
+      "priority": "P1",
+      "playbook": "playbook-international-seo.md"
+    },
+    "internal_linking": {
+      "priority": "P2",
+      "playbook": "playbook-internal-linking.md"
+    },
+    "images_media": {
+      "priority": "P2",
+      "playbook": "playbook-images-media.md"
+    },
+    "ai_search_geo": {
+      "priority": "P3",
+      "playbook": "playbook-ai-search.md"
+    }
+  },
+  "issues": {
+    "1": { "name": "5xx errors", "domain": "crawlability_indexing", "actionability": "manual" },
+    "2": { "name": "4xx errors", "domain": "crawlability_indexing", "actionability": "semi_auto" },
+    "3": { "name": "Title tag is missing or empty", "domain": "metadata_content", "actionability": "auto_fixable" },
+    "4": { "name": "Blocked from crawling", "domain": "crawlability_indexing", "actionability": "semi_auto" },
+    "6": { "name": "Duplicate title tag", "domain": "metadata_content", "actionability": "auto_fixable" },
+    "7": { "name": "Duplicate content", "domain": "metadata_content", "actionability": "semi_auto" },
+    "8": { "name": "Broken internal links", "domain": "crawlability_indexing", "actionability": "auto_fixable" },
+    "9": { "name": "Pages not crawled", "domain": "crawlability_indexing", "actionability": "manual" },
+    "10": { "name": "DNS resolution issue", "domain": "crawlability_indexing", "actionability": "manual" },
+    "11": { "name": "We couldn't open the page URL", "domain": "crawlability_indexing", "actionability": "manual" },
+    "12": { "name": "Broken external links", "domain": "internal_linking", "actionability": "semi_auto" },
+    "13": { "name": "Broken internal images", "domain": "images_media", "actionability": "auto_fixable" },
+    "14": { "name": "Broken external images", "domain": "images_media", "actionability": "semi_auto" },
+    "15": { "name": "Duplicate meta descriptions", "domain": "metadata_content", "actionability": "auto_fixable" },
+    "16": { "name": "Invalid robots.txt format", "domain": "crawlability_indexing", "actionability": "auto_fixable" },
+    "17": { "name": "Invalid sitemap.xml format", "domain": "crawlability_indexing", "actionability": "semi_auto" },
+    "18": { "name": "Incorrect pages found in sitemap.xml", "domain": "crawlability_indexing", "actionability": "auto_fixable" },
+    "19": { "name": "www resolve issues", "domain": "crawlability_indexing", "actionability": "manual" },
+    "21": { "name": "Large HTML page size", "domain": "performance", "actionability": "semi_auto" },
+    "23": { "name": "Issues with hreflang values", "domain": "international_seo", "actionability": "semi_auto" },
+    "24": { "name": "Hreflang conflicts within page source code", "domain": "international_seo", "actionability": "semi_auto" },
+    "25": { "name": "Issues with incorrect hreflang links", "domain": "international_seo", "actionability": "semi_auto" },
+    "26": { "name": "Non-secure pages", "domain": "https_security", "actionability": "manual" },
+    "27": { "name": "Certificate Expiration", "domain": "https_security", "actionability": "manual" },
+    "28": { "name": "Old security protocol version", "domain": "https_security", "actionability": "manual" },
+    "29": { "name": "Certificate registered to incorrect name", "domain": "https_security", "actionability": "manual" },
+    "30": { "name": "Issues with mixed content", "domain": "https_security", "actionability": "auto_fixable" },
+    "31": { "name": "Links lead to HTTP pages for HTTPS site", "domain": "https_security", "actionability": "auto_fixable" },
+    "32": { "name": "Neither canonical URL nor 301 redirect from HTTP homepage", "domain": "https_security", "actionability": "semi_auto" },
+    "33": { "name": "Redirect chains and loops", "domain": "performance", "actionability": "semi_auto" },
+    "38": { "name": "Broken canonical URLs", "domain": "crawlability_indexing", "actionability": "auto_fixable" },
+    "39": { "name": "Multiple canonical URLs", "domain": "crawlability_indexing", "actionability": "auto_fixable" },
+    "40": { "name": "Meta refresh redirects", "domain": "crawlability_indexing", "actionability": "auto_fixable" },
+    "41": { "name": "Broken internal JavaScript and CSS files", "domain": "performance", "actionability": "auto_fixable" },
+    "42": { "name": "Insecure encryption algorithms", "domain": "https_security", "actionability": "manual" },
+    "44": { "name": "Malformed links", "domain": "crawlability_indexing", "actionability": "auto_fixable" },
+    "45": { "name": "Structured data that contains markup errors", "domain": "structured_data", "actionability": "semi_auto" },
+    "101": { "name": "Title element is too short", "domain": "metadata_content", "actionability": "auto_fixable" },
+    "102": { "name": "Title element is too long", "domain": "metadata_content", "actionability": "auto_fixable" },
+    "103": { "name": "Missing h1", "domain": "metadata_content", "actionability": "semi_auto" },
+    "104": { "name": "Multiple h1 tags", "domain": "metadata_content", "actionability": "semi_auto" },
+    "105": { "name": "Duplicate content in h1 and title", "domain": "metadata_content", "actionability": "auto_fixable" },
+    "106": { "name": "Missing meta description", "domain": "metadata_content", "actionability": "auto_fixable" },
+    "108": { "name": "Too many on-page links", "domain": "internal_linking", "actionability": "semi_auto" },
+    "109": { "name": "Temporary redirects", "domain": "crawlability_indexing", "actionability": "semi_auto" },
+    "110": { "name": "Missing ALT attributes", "domain": "images_media", "actionability": "semi_auto" },
+    "111": { "name": "Slow page load speed", "domain": "performance", "actionability": "manual" },
+    "112": { "name": "Low text to HTML ratio", "domain": "metadata_content", "actionability": "semi_auto" },
+    "114": { "name": "Missing hreflang and lang attributes", "domain": "international_seo", "actionability": "semi_auto" },
+    "117": { "name": "Low word count", "domain": "metadata_content", "actionability": "manual" },
+    "122": { "name": "Underscores in URL", "domain": "internal_linking", "actionability": "manual" },
+    "123": { "name": "Nofollow attributes in internal links", "domain": "internal_linking", "actionability": "auto_fixable" },
+    "124": { "name": "Sitemap.xml not specified in robots.txt", "domain": "crawlability_indexing", "actionability": "auto_fixable" },
+    "125": { "name": "Sitemap.xml not found", "domain": "crawlability_indexing", "actionability": "semi_auto" },
+    "126": { "name": "HTTPS encryption not used", "domain": "https_security", "actionability": "manual" },
+    "127": { "name": "No SNI support", "domain": "https_security", "actionability": "manual" },
+    "128": { "name": "HTTP URLs in sitemap.xml for HTTPS site", "domain": "https_security", "actionability": "auto_fixable" },
+    "129": { "name": "Uncompressed pages", "domain": "performance", "actionability": "manual" },
+    "130": { "name": "Disallowed internal resources", "domain": "performance", "actionability": "manual" },
+    "131": { "name": "Uncompressed JavaScript and CSS files", "domain": "performance", "actionability": "manual" },
+    "132": { "name": "Uncached JavaScript and CSS files", "domain": "performance", "actionability": "manual" },
+    "133": { "name": "Too large JavaScript and CSS total size", "domain": "performance", "actionability": "manual" },
+    "134": { "name": "Too many JavaScript and CSS files", "domain": "performance", "actionability": "manual" },
+    "135": { "name": "Unminified JavaScript and CSS files", "domain": "performance", "actionability": "manual" },
+    "136": { "name": "Warning - Too long URLs", "domain": "internal_linking", "actionability": "manual" },
+    "137": { "name": "Llms.txt not found", "domain": "ai_search_geo", "actionability": "auto_fixable" },
+    "201": { "name": "Too long URLs", "domain": "internal_linking", "actionability": "manual" },
+    "203": { "name": "Robots.txt not found", "domain": "crawlability_indexing", "actionability": "auto_fixable" },
+    "204": { "name": "Hreflang language mismatch issues", "domain": "international_seo", "actionability": "semi_auto" },
+    "205": { "name": "No HSTS support", "domain": "https_security", "actionability": "manual" },
+    "206": { "name": "Orphaned pages (Google Analytics)", "domain": "internal_linking", "actionability": "semi_auto" },
+    "207": { "name": "Orphaned sitemap pages", "domain": "internal_linking", "actionability": "semi_auto" },
+    "208": { "name": "Pages have high Document Interactive Time", "domain": "performance", "actionability": "manual" },
+    "209": { "name": "Blocked by X-Robots-Tag: noindex HTTP header", "domain": "crawlability_indexing", "actionability": "semi_auto" },
+    "212": { "name": "Page crawl depth", "domain": "internal_linking", "actionability": "semi_auto" },
+    "213": { "name": "Pages with only one internal link", "domain": "internal_linking", "actionability": "auto_fixable" },
+    "214": { "name": "Permanent redirects", "domain": "internal_linking", "actionability": "manual" },
+    "215": { "name": "Resources formatted as page links", "domain": "internal_linking", "actionability": "semi_auto" },
+    "216": { "name": "Links with no anchor text", "domain": "internal_linking", "actionability": "auto_fixable" },
+    "217": { "name": "Links with non-descriptive anchor text", "domain": "internal_linking", "actionability": "semi_auto" },
+    "219": { "name": "Llms.txt has formatting issues", "domain": "ai_search_geo", "actionability": "auto_fixable" },
+    "220": { "name": "Too much content", "domain": "metadata_content", "actionability": "manual" },
+    "221": { "name": "Outdated content", "domain": "metadata_content", "actionability": "manual" },
+    "222": { "name": "Low Semantic HTML usage", "domain": "ai_search_geo", "actionability": "semi_auto" },
+    "223": { "name": "Content not optimized", "domain": "metadata_content", "actionability": "manual" }
+  },
+  "fallback_keywords": {
+    "llms.txt": "ai_search_geo",
+    "structured data": "structured_data",
+    "markup": "structured_data",
+    "canonical": "crawlability_indexing",
+    "hreflang": "international_seo",
+    "javascript and css": "performance",
+    "broken internal": "crawlability_indexing"
+  }
+}

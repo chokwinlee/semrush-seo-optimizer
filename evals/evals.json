@@ -1,0 +1,23 @@
+{
+  "skill_name": "semrush-seo-autofix",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I exported my SEMrush Site Audit results as a CSV. Route the issues and produce a prioritized remediation queue with unknown issue handling.",
+      "expected_output": "JSON and markdown outputs with prioritized_queue sorted by P0-P3, unknown_issue_ids listed, and manual_handoffs documented.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Run strict mode routing on this CSV and fail if there are any unknown issue IDs.",
+      "expected_output": "Non-zero exit code when unknown issues are present; zero exit code when all IDs are in the registry.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Validate the issue registry to make sure all issue-to-domain mappings are structurally valid.",
+      "expected_output": "validate_registry.py exits 0 and reports no schema integrity errors.",
+      "files": ["references/issue-registry.json"]
+    }
+  ]
+}
