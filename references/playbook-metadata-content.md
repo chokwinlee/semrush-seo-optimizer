@@ -1,27 +1,32 @@
 # Playbook: Metadata and Content
 
-## Target Issues
+## Official Basis
 
-`3,6,7,15,101,102,103,104,105,106,112,117,220,221,223`
+- SEMrush Site Audit categories: On Page SEO, Content
+- Source: https://www.semrush.com/kb/542-site-audit-issues-list
+- Use the per-issue "How to fix it" guidance from SEMrush when deciding exact remediation.
 
 ## Root Causes
 
-- missing/duplicate title and description
+- missing or duplicate title and description
 - heading hierarchy gaps
-- thin or low-clarity content
+- thin, outdated, or low-clarity content
+- missing technical HTML basics (doctype, encoding)
 
 ## Allowed Auto Actions
 
-- enforce unique title/description generation
+- enforce unique title and description generation
 - add missing metadata scaffolding
-- resolve duplicate H1/title collisions
+- resolve duplicate H1 and title collisions
+- add missing encoding or doctype scaffolding when template ownership is clear
 
 ## Semi/Manual Actions
 
 - broad content rewrites should be review-gated
-- freshness/content depth changes are usually manual editorial work
+- freshness and content-depth changes are usually manual editorial work
 
 ## Required Validation
 
 - uniqueness checks for title and meta description
 - required metadata fields present on indexable pages
+- rendered pages include valid doctype and charset declarations

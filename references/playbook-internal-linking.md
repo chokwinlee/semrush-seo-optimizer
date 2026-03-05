@@ -1,8 +1,10 @@
 # Playbook: Internal Linking and Architecture
 
-## Target Issues
+## Official Basis
 
-`108,122,123,136,201,206,207,212,213,214,215,216,217`
+- SEMrush Site Audit category: Internal Linking
+- Source: https://www.semrush.com/kb/542-site-audit-issues-list
+- Use the per-issue "How to fix it" guidance from SEMrush when deciding exact remediation.
 
 ## Root Causes
 
@@ -14,8 +16,8 @@
 ## Allowed Auto Actions
 
 - remove unintended `nofollow` in internal links
-- replace empty/non-descriptive anchor text when intent is clear
-- add strategic links to high-value orphan/low-link pages
+- replace empty or non-descriptive anchor text when intent is clear
+- add strategic links to high-value orphan or low-link pages
 
 ## Required Validation
 

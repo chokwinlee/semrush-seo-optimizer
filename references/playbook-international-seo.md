@@ -1,8 +1,10 @@
 # Playbook: International SEO
 
-## Target Issues
+## Official Basis
 
-`23,24,25,114,204`
+- SEMrush Site Audit category: International SEO
+- Source: https://www.semrush.com/kb/542-site-audit-issues-list
+- Use the per-issue "How to fix it" guidance from SEMrush when deciding exact remediation.
 
 ## Root Causes
 
@@ -19,4 +21,4 @@
 ## Required Validation
 
 - reciprocal hreflang consistency checks
-- no canonical/hreflang contradiction in fixed pages
+- no canonical and hreflang contradiction in fixed pages

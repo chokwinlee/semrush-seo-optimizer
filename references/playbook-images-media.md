@@ -1,8 +1,10 @@
 # Playbook: Images and Media
 
-## Target Issues
+## Official Basis
 
-`13,14,110`
+- SEMrush Site Audit category: On Page SEO image checks
+- Source: https://www.semrush.com/kb/542-site-audit-issues-list
+- Use the per-issue "How to fix it" guidance from SEMrush when deciding exact remediation.
 
 ## Root Causes
 
@@ -18,5 +20,5 @@
 
 ## Required Validation
 
-- no broken image references on edited pages/templates
+- no broken image references on edited pages or templates
 - alt coverage improved for informative images

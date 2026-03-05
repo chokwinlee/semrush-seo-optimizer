@@ -11,7 +11,13 @@ Convert a SEMrush Site Audit export into a prioritized fix plan, execute the fix
 
 The skill routes each issue row through a machine-readable registry (`references/issue-registry.json`) that maps SEMrush issue IDs to domains, priorities, actionability tags, and playbooks. Issues the registry doesn't recognize are flagged — never silently skipped.
 
-The registry covers 80+ SEMrush issue IDs across 9 domains: crawlability/indexing, HTTPS/security, metadata/content, structured data, performance, international SEO, internal linking, images/media, and AI search (GEO).
+The registry covers 100+ SEMrush issue IDs across 9 domains: crawlability/indexing, HTTPS/security, metadata/content, structured data, performance, international SEO, internal linking, images/media, and AI search (GEO).
+
+## Source of Truth
+
+- Official issue guidance source: SEMrush KB issue catalog (`https://www.semrush.com/kb/542-site-audit-issues-list`)
+- Official issue ID source (when API access is available): `GET /reports/v1/projects/{ID}/siteaudit/meta/issues`
+- Registry maintenance policy: update `references/issue-registry.json` from official SEMrush sources, not from a single project export
 
 ## When To Use
 
@@ -88,6 +94,7 @@ Read these as needed — they don't all need to be loaded upfront:
 - `references/reference.md` — Input/output contracts, severity weights, priority definitions
 - `references/issue-registry.json` — Machine-readable issue-to-domain-to-playbook mapping
 - `references/playbook-*.md` — Domain-specific remediation strategies (9 files)
+- `references/semrush-official-sources.md` — Official SEMrush source links and refresh workflow
 - `references/nextjs-vercel.md` — Next.js + Vercel adapter guidance
 - `references/schemas.md` — JSON and Markdown output schemas
 - `assets/remediation-report-template.md` — Report template

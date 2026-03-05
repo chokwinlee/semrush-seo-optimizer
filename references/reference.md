@@ -53,6 +53,12 @@ When an issue is not in the registry:
 3. Exit non-zero if `--strict` mode is enabled
 4. Update `references/issue-registry.json` in a dedicated PR before auto-fixing
 
+## Official SEMrush Sources
+
+- Issue guidance and categories: `https://www.semrush.com/kb/542-site-audit-issues-list`
+- Issue ID and title API endpoint: `GET /reports/v1/projects/{ID}/siteaudit/meta/issues`
+- Registry must be reviewed against official SEMrush sources before release.
+
 ## Output Contract
 
 JSON output must include:

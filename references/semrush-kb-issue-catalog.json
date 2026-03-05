@@ -1,0 +1,389 @@
+{
+  "source": "https://www.semrush.com/kb/542-site-audit-issues-list",
+  "issues": [
+    {
+      "title": "Hreflang conflicts within page source code",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Pages returning 5XX status code",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Pages don't have title tags",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Issues with duplicate title tags",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Pages with duplicate content issues",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Broken internal links",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Pages couldn't be crawled",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Pages couldn't be crawled (DNS resolution issues)",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Pages couldn't be crawled (incorrect URL formats)",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Broken internal images",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Pages with duplicate meta descriptions",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Format errors in Robots.txt file",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Format errors in sitemap.xml files",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Incorrect pages found in sitemap.xml",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Pages with a WWW resolve issue",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Pages with no viewport tag",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Size of HTML on a page is too large",
+      "severity": "ERROR"
+    },
+    {
+      "title": "AMP pages with no canonical tag",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Issues with hreflang values",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Pages returning 4XX status code",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Issues with incorrect hreflang links",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Non-secure pages",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Issues with expiring or expired certificate",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Issues with old security protocol",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Issues with incorrect certificate name",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Issues with mixed content",
+      "severity": "ERROR"
+    },
+    {
+      "title": "No redirect or canonical to HTTPS homepage from HTTP version",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Redirect chains and loops",
+      "severity": "ERROR"
+    },
+    {
+      "title": "AMP HTML issues",
+      "severity": "ERROR"
+    },
+    {
+      "title": "AMP style and layout issues",
+      "severity": "ERROR"
+    },
+    {
+      "title": "AMP templating issues",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Pages with a broken canonical link",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Pages with multiple canonical URLs",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Pages with a meta refresh tag",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Issues with broken internal JavaScript and CSS files",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Subdomains don’t support secure encryption algorithms",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Sitemap.xml files are too large",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Pages with slow load speed",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Invalid structured data items",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Malformed links",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Missing the viewport width value",
+      "severity": "ERROR"
+    },
+    {
+      "title": "Pages with too much text within the title tags",
+      "severity": "WARNING"
+    },
+    {
+      "title": "Pages without enough text within the title tags",
+      "severity": "WARNING"
+    },
+    {
+      "title": "Pages with low text-HTML ratio",
+      "severity": "WARNING"
+    },
+    {
+      "title": "Pages without meta descriptions",
+      "severity": "WARNING"
+    },
+    {
+      "title": "Pages with duplicate H1 and title tags",
+      "severity": "WARNING"
+    },
+    {
+      "title": "Pages without an h1 heading",
+      "severity": "WARNING"
+    },
+    {
+      "title": "Pages with an underscore in the URL",
+      "severity": "WARNING"
+    },
+    {
+      "title": "Sitemap.xml not indicated in robots.txt",
+      "severity": "WARNING"
+    },
+    {
+      "title": "Pages with a low word count",
+      "severity": "WARNING"
+    },
+    {
+      "title": "Pages with temporary redirects",
+      "severity": "WARNING"
+    },
+    {
+      "title": "Images without alt attributes",
+      "severity": "WARNING"
+    },
+    {
+      "title": "Broken external images",
+      "severity": "WARNING"
+    },
+    {
+      "title": "Pages with too many parameters in their URLs",
+      "severity": "WARNING"
+    },
+    {
+      "title": "Pages with no hreflang and lang attributes",
+      "severity": "WARNING"
+    },
+    {
+      "title": "Pages without character encoding declared",
+      "severity": "WARNING"
+    },
+    {
+      "title": "Pages without doctype declared",
+      "severity": "WARNING"
+    },
+    {
+      "title": "Incompatible plugin content",
+      "severity": "WARNING"
+    },
+    {
+      "title": "Pages containing frames",
+      "severity": "WARNING"
+    },
+    {
+      "title": "Broken external links",
+      "severity": "WARNING"
+    },
+    {
+      "title": "Internal links containing nofollow attribute",
+      "severity": "WARNING"
+    },
+    {
+      "title": "Pages with too many on-page links",
+      "severity": "WARNING"
+    },
+    {
+      "title": "Sitemap.xml not found",
+      "severity": "WARNING"
+    },
+    {
+      "title": "Subdomains don't support SNI",
+      "severity": "WARNING"
+    },
+    {
+      "title": "Homepage does not use HTTPS encryption",
+      "severity": "WARNING"
+    },
+    {
+      "title": "HTTP URLs in sitemap.xml for HTTPS site",
+      "severity": "WARNING"
+    },
+    {
+      "title": "Links on HTTPS pages leading to HTTP page",
+      "severity": "WARNING"
+    },
+    {
+      "title": "Uncompressed pages",
+      "severity": "WARNING"
+    },
+    {
+      "title": "Issues with blocked internal resources in robots.txt",
+      "severity": "WARNING"
+    },
+    {
+      "title": "Issues with uncompressed JavaScript and CSS files",
+      "severity": "WARNING"
+    },
+    {
+      "title": "Issues with uncached JavaScript and CSS files",
+      "severity": "WARNING"
+    },
+    {
+      "title": "Pages have a JavaScript and CSS total size that is too large",
+      "severity": "WARNING"
+    },
+    {
+      "title": "Pages use too many JavaScript and CSS files",
+      "severity": "WARNING"
+    },
+    {
+      "title": "Issues with unminified JavaScript and CSS files",
+      "severity": "WARNING"
+    },
+    {
+      "title": "Too long link URLs",
+      "severity": "WARNING"
+    },
+    {
+      "title": "Llms.txt file has formatting issues (AI Search)",
+      "severity": "NOTICE"
+    },
+    {
+      "title": "Too much content (AI Search)",
+      "severity": "NOTICE"
+    },
+    {
+      "title": "Outdated Content (AI Search)",
+      "severity": "NOTICE"
+    },
+    {
+      "title": "Pages with only one incoming internal linksource formatted as page link",
+      "severity": "NOTICE"
+    },
+    {
+      "title": "Links to external pages or resources returned a 403 HTTP status code",
+      "severity": "NOTICE"
+    },
+    {
+      "title": "Links with non-descriptive anchor text",
+      "severity": "NOTICE"
+    },
+    {
+      "title": "Pages that need more than 3 clicks to be reached",
+      "severity": "NOTICE"
+    },
+    {
+      "title": "Outgoing external links containing no follow attributes",
+      "severity": "NOTICE"
+    },
+    {
+      "title": "Subdomains don't support HSTS",
+      "severity": "NOTICE"
+    },
+    {
+      "title": "URLs longer than 200 characters",
+      "severity": "NOTICE"
+    },
+    {
+      "title": "Pages with more than one H1 tag",
+      "severity": "NOTICE"
+    },
+    {
+      "title": "Robots.txt not found",
+      "severity": "NOTICE"
+    },
+    {
+      "title": "Pages with hreflang language mismatch issues",
+      "severity": "NOTICE"
+    },
+    {
+      "title": "Pages that were blocked from crawling",
+      "severity": "NOTICE"
+    },
+    {
+      "title": "Orphaned pages (from Google Analytics)",
+      "severity": "NOTICE"
+    },
+    {
+      "title": "Orphaned pages (in sitemap)",
+      "severity": "NOTICE"
+    },
+    {
+      "title": "Pages blocked by X-Robots-Tag: noindex HTTP header",
+      "severity": "NOTICE"
+    },
+    {
+      "title": "Issues with blocked external resources in robots.txt",
+      "severity": "NOTICE"
+    },
+    {
+      "title": "Issues with broken external JavaScript and CSS files",
+      "severity": "NOTICE"
+    },
+    {
+      "title": "URLs with a permanent redirect",
+      "severity": "NOTICE"
+    },
+    {
+      "title": "Links with no anchor text",
+      "severity": "NOTICE"
+    }
+  ]
+}

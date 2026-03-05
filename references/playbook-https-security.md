@@ -1,27 +1,29 @@
 # Playbook: HTTPS and Security
 
-## Target Issues
+## Official Basis
 
-`26,27,28,29,30,31,32,42,126,127,128,205`
+- SEMrush Site Audit category: HTTPS Implementation
+- Source: https://www.semrush.com/kb/542-site-audit-issues-list
+- Use the per-issue "How to fix it" guidance from SEMrush when deciding exact remediation.
 
 ## Root Causes
 
-- HTTP remnants on HTTPS site
+- HTTP remnants on an HTTPS site
 - mixed-content assets
-- missing redirect/canonical migration controls
-- certificate/protocol/server policy problems
+- missing redirect or canonical migration controls
+- certificate, protocol, or server policy problems
 
 ## Allowed Auto Actions
 
-- Rewrite internal HTTP links to HTTPS
-- Replace mixed content references where source is in repository
-- Align sitemap URL protocol with canonical site protocol
+- rewrite internal HTTP links to HTTPS
+- replace mixed-content references where source is in repository
+- align sitemap URL protocol with canonical site protocol
 
 ## Manual Escalation
 
-- Certificates, TLS versions, cipher suites, HSTS, SNI, WAF/CDN restrictions
+- certificates, TLS versions, cipher suites, HSTS, SNI, WAF, or CDN restrictions
 
 ## Required Validation
 
-- No HTTP internal references in fixed pages
-- Mixed-content checks pass on touched templates/routes
+- no HTTP internal references in fixed pages
+- mixed-content checks pass on touched templates or routes

@@ -1,23 +1,25 @@
 # Playbook: AI Search / GEO
 
-## Target Issues
+## Official Basis
 
-`137,219,222`
+- SEMrush Site Audit category: AI Search (Generative Engine Optimization)
+- Source: https://www.semrush.com/kb/542-site-audit-issues-list
+- Use the per-issue "How to fix it" guidance from SEMrush when deciding exact remediation.
 
 ## Root Causes
 
-- missing/invalid `llms.txt`
+- missing or invalid `llms.txt`
 - low semantic HTML structure
 - inconsistent AI crawler access strategy
 
 ## Allowed Auto Actions
 
-- create/fix `llms.txt` formatting
+- create or fix `llms.txt` formatting
 - improve semantic layout in templates (`main`, `article`, heading hierarchy)
 
 ## Manual Decisions
 
-- bot allow/deny policies must align with business/legal requirements
+- bot allow and deny policies must align with business and legal requirements
 
 ## Required Validation
 
